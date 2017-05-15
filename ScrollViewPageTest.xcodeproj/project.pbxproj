@@ -12,6 +12,8 @@
 		0C5981AC1EC8B2AA00E3349D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5981AA1EC8B2AA00E3349D /* Main.storyboard */; };
 		0C5981AE1EC8B2AA00E3349D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5981AD1EC8B2AA00E3349D /* Assets.xcassets */; };
 		0C5981B11EC8B2AA00E3349D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C5981AF1EC8B2AA00E3349D /* LaunchScreen.storyboard */; };
+		0C5981BD1EC8B73D00E3349D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5981BC1EC8B73D00E3349D /* PageViewController.swift */; };
+		0C5981C31EC8BC6900E3349D /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5981C21EC8BC6900E3349D /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0C5981AD1EC8B2AA00E3349D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C5981B01EC8B2AA00E3349D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C5981B21EC8B2AA00E3349D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C5981BC1EC8B73D00E3349D /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		0C5981C21EC8BC6900E3349D /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				0C5981A61EC8B2AA00E3349D /* AppDelegate.swift */,
 				0C5981A81EC8B2AA00E3349D /* ViewController.swift */,
+				0C5981BC1EC8B73D00E3349D /* PageViewController.swift */,
 				0C5981AA1EC8B2AA00E3349D /* Main.storyboard */,
 				0C5981AD1EC8B2AA00E3349D /* Assets.xcassets */,
 				0C5981AF1EC8B2AA00E3349D /* LaunchScreen.storyboard */,
 				0C5981B21EC8B2AA00E3349D /* Info.plist */,
+				0C5981C21EC8BC6900E3349D /* PageView.swift */,
 			);
 			path = ScrollViewPageTest;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C5981BD1EC8B73D00E3349D /* PageViewController.swift in Sources */,
+				0C5981C31EC8BC6900E3349D /* PageView.swift in Sources */,
 				0C5981A91EC8B2AA00E3349D /* ViewController.swift in Sources */,
 				0C5981A71EC8B2AA00E3349D /* AppDelegate.swift in Sources */,
 			);
