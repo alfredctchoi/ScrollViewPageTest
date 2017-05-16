@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PageViewController: UIViewController {
+class PageViewController: UIViewController, UITableViewDelegate {
     
     var pageLabel = UILabel()
     var tableView = UITableView()
@@ -18,6 +18,8 @@ class PageViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        self.tableView.delegate = self
         
         self.view.addSubview(self.pageLabel)
         self.view.addSubview(self.tableView)
